@@ -17,5 +17,7 @@ pip install -r requirements.txt
 
 ## Run
 ```bash
-uvicorn main:app
-```
+If you've trained your own arcface model:
+    uvicorn main:app
+Otherwise:
+    uvicorn main2:app
